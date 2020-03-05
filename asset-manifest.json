@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/desafio-stone/static/css/main.90b1c99f.chunk.css",
+    "main.js": "/desafio-stone/static/js/main.e6b603fa.chunk.js",
+    "main.js.map": "/desafio-stone/static/js/main.e6b603fa.chunk.js.map",
+    "runtime-main.js": "/desafio-stone/static/js/runtime-main.a90edd3c.js",
+    "runtime-main.js.map": "/desafio-stone/static/js/runtime-main.a90edd3c.js.map",
+    "static/js/2.7624ec69.chunk.js": "/desafio-stone/static/js/2.7624ec69.chunk.js",
+    "static/js/2.7624ec69.chunk.js.map": "/desafio-stone/static/js/2.7624ec69.chunk.js.map",
+    "index.html": "/desafio-stone/index.html",
+    "precache-manifest.8cad85062b76fe6f1af67d3c874edd65.js": "/desafio-stone/precache-manifest.8cad85062b76fe6f1af67d3c874edd65.js",
+    "service-worker.js": "/desafio-stone/service-worker.js",
+    "static/css/main.90b1c99f.chunk.css.map": "/desafio-stone/static/css/main.90b1c99f.chunk.css.map",
+    "static/js/2.7624ec69.chunk.js.LICENSE.txt": "/desafio-stone/static/js/2.7624ec69.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a90edd3c.js",
+    "static/js/2.7624ec69.chunk.js",
+    "static/css/main.90b1c99f.chunk.css",
+    "static/js/main.e6b603fa.chunk.js"
+  ]
+}
