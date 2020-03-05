@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Spartan&display=swap');
+
+.search-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Spartan', sans-serif;
+}
+
+.form-search button{
+    border: none;
+    color: #FFF;
+    background-color: #21AD4A;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.form-search input{
+    height: 40px;
+}
+
+.form-search{
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    justify-content: space-evenly;
+}
