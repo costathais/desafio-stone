@@ -3,7 +3,7 @@ import axios from "axios";
 import { useParams, Link } from "react-router-dom";
 import "./styles.css";
 
-axios.defaults.baseURL = "https://developer.github.com/v3/";
+axios.defaults.baseURL = "http://api.github.com";
 
 const ResultPage = () => {
   const [userData, setUserData] = useState(null);
