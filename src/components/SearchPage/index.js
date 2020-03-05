@@ -21,7 +21,7 @@ const SearchPage = () => {
 
     return (
         <div className="App">
-            {redirect ? <Redirect to={`/user/${userName}`} /> : null}
+            {redirect ? <Redirect to={`/desafio-stone/user/${userName}`} /> : null}
 
             <div className="search-container">  
 

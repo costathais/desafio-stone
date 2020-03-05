@@ -38,7 +38,7 @@ const ResultPage = () => {
   return (
     <div className="App">
       <div className="result-container">
-        <Link class="back-button" to="/">
+        <Link class="back-button" to="/desafio-stone">
           Voltar para a busca
         </Link>
         {!userData || !userData.name ? (
