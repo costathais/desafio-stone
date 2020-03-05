@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d47a20367481e66c99079e080d50eb9c",
+    "revision": "e2a2476b88daacffdff425b23151ade4",
     "url": "/desafio-stone/index.html"
   },
   {
-    "revision": "409495e40b247b495716",
-    "url": "/desafio-stone/static/css/main.90b1c99f.chunk.css"
+    "revision": "d0b83f32ab63c9a21d78",
+    "url": "/desafio-stone/static/css/main.42c46118.chunk.css"
   },
   {
     "revision": "9b9e00096c15a25c8e9e",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/desafio-stone/static/js/2.7624ec69.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "409495e40b247b495716",
-    "url": "/desafio-stone/static/js/main.e1eb8cb7.chunk.js"
+    "revision": "d0b83f32ab63c9a21d78",
+    "url": "/desafio-stone/static/js/main.88843b40.chunk.js"
   },
   {
     "revision": "295b63bfd262c16fd917",
