@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/desafio-stone/static/css/main.42c46118.chunk.css",
-    "main.js": "/desafio-stone/static/js/main.e31180b7.chunk.js",
-    "main.js.map": "/desafio-stone/static/js/main.e31180b7.chunk.js.map",
+    "main.js": "/desafio-stone/static/js/main.228a2bee.chunk.js",
+    "main.js.map": "/desafio-stone/static/js/main.228a2bee.chunk.js.map",
     "runtime-main.js": "/desafio-stone/static/js/runtime-main.a90edd3c.js",
     "runtime-main.js.map": "/desafio-stone/static/js/runtime-main.a90edd3c.js.map",
     "static/js/2.25b9814b.chunk.js": "/desafio-stone/static/js/2.25b9814b.chunk.js",
     "static/js/2.25b9814b.chunk.js.map": "/desafio-stone/static/js/2.25b9814b.chunk.js.map",
     "index.html": "/desafio-stone/index.html",
-    "precache-manifest.342d709605d24cefcb765acb4a2cc087.js": "/desafio-stone/precache-manifest.342d709605d24cefcb765acb4a2cc087.js",
+    "precache-manifest.44a8adad88dc94bee937fea91b48a723.js": "/desafio-stone/precache-manifest.44a8adad88dc94bee937fea91b48a723.js",
     "service-worker.js": "/desafio-stone/service-worker.js",
     "static/css/main.42c46118.chunk.css.map": "/desafio-stone/static/css/main.42c46118.chunk.css.map",
     "static/js/2.25b9814b.chunk.js.LICENSE.txt": "/desafio-stone/static/js/2.25b9814b.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a90edd3c.js",
     "static/js/2.25b9814b.chunk.js",
     "static/css/main.42c46118.chunk.css",
-    "static/js/main.e31180b7.chunk.js"
+    "static/js/main.228a2bee.chunk.js"
   ]
 }
