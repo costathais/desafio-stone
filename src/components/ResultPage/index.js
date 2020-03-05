@@ -41,7 +41,7 @@ const ResultPage = () => {
         <Link class="back-button" to="/desafio-stone">
           Voltar para a busca
         </Link>
-        {!userData || !userData.name ? (
+        {!userData ? (
           <h3 className="not-found">
             Usuário não encontrado. Volte para a busca e tente novamente.{" "}
           </h3>
@@ -76,7 +76,7 @@ const ResultPage = () => {
         )}
         {/* <h3>Repositórios:</h3>                   */}
         <div className="repo-container">
-          {userData && userData.name
+          {userData && userRepos
             ? userRepos.map((repo, key) => (
                 <div className="repo-info" key={`repo-${key}`}>
                   <div className="repo-link">
