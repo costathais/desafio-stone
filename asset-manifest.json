@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/desafio-stone/static/css/main.90b1c99f.chunk.css",
-    "main.js": "/desafio-stone/static/js/main.ef39633b.chunk.js",
-    "main.js.map": "/desafio-stone/static/js/main.ef39633b.chunk.js.map",
+    "main.js": "/desafio-stone/static/js/main.e1eb8cb7.chunk.js",
+    "main.js.map": "/desafio-stone/static/js/main.e1eb8cb7.chunk.js.map",
     "runtime-main.js": "/desafio-stone/static/js/runtime-main.a90edd3c.js",
     "runtime-main.js.map": "/desafio-stone/static/js/runtime-main.a90edd3c.js.map",
-    "static/js/2.25b9814b.chunk.js": "/desafio-stone/static/js/2.25b9814b.chunk.js",
-    "static/js/2.25b9814b.chunk.js.map": "/desafio-stone/static/js/2.25b9814b.chunk.js.map",
+    "static/js/2.7624ec69.chunk.js": "/desafio-stone/static/js/2.7624ec69.chunk.js",
+    "static/js/2.7624ec69.chunk.js.map": "/desafio-stone/static/js/2.7624ec69.chunk.js.map",
     "index.html": "/desafio-stone/index.html",
-    "precache-manifest.c8945dde1f7b313f96acbfd5c666632b.js": "/desafio-stone/precache-manifest.c8945dde1f7b313f96acbfd5c666632b.js",
+    "precache-manifest.3eec34cc4486601ee5b1d57b9073b594.js": "/desafio-stone/precache-manifest.3eec34cc4486601ee5b1d57b9073b594.js",
     "service-worker.js": "/desafio-stone/service-worker.js",
     "static/css/main.90b1c99f.chunk.css.map": "/desafio-stone/static/css/main.90b1c99f.chunk.css.map",
-    "static/js/2.25b9814b.chunk.js.LICENSE.txt": "/desafio-stone/static/js/2.25b9814b.chunk.js.LICENSE.txt"
+    "static/js/2.7624ec69.chunk.js.LICENSE.txt": "/desafio-stone/static/js/2.7624ec69.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a90edd3c.js",
-    "static/js/2.25b9814b.chunk.js",
+    "static/js/2.7624ec69.chunk.js",
     "static/css/main.90b1c99f.chunk.css",
-    "static/js/main.ef39633b.chunk.js"
+    "static/js/main.e1eb8cb7.chunk.js"
   ]
 }
