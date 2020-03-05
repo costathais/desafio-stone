@@ -42,39 +42,50 @@ const ResultPage = () => {
           Voltar para a busca
         </Link>
         {!userData || !userData.name ? (
-          <div>Usuário não encontrado. </div>
+          <h3 className="not-found">
+            Usuário não encontrado. Volte para a busca e tente novamente.{" "}
+          </h3>
         ) : (
           <div className="user-data">
+            {/* <h3>Dados do usuário:</h3> */}
             <img
               className="user-img"
               src={userData.avatar_url}
               alt={userData.name}
             />
-            {/* <div className="user-name">Nome: {userData.name}</div>
-            <div className="user-email">Email: {userData.email}</div>
-            <div className="user-following">Seguindo: {userData.following}</div>
-            <div className="user-followers">Seguidores: {userData.followers}</div> */}
-            {userData.name ? ( <div className="user-name">Nome: {userData.name}</div>) : null}
-            {userData.email ? ( <div className="user-email">Email: {userData.email}</div>) : null}
-            {userData.following ? ( <div className="user-following">Seguindo: {userData.following}</div>) : null}
-            {userData.followers ? ( <div className="user-followers">Seguidores: {userData.followers}</div>) : null}
-            {userData.bio ? ( <div className="user-bio">Bio: {userData.bio}</div>) : null}
+            {userData.name ? (
+              <div className="user-name">Nome: {userData.name}</div>
+            ) : null}
+            {userData.email ? (
+              <div className="user-email">Email: {userData.email}</div>
+            ) : null}
+            {userData.following ? (
+              <div className="user-following">
+                Seguindo: {userData.following}
+              </div>
+            ) : null}
+            {userData.followers ? (
+              <div className="user-followers">
+                Seguidores: {userData.followers}
+              </div>
+            ) : null}
+            {userData.bio ? (
+              <div className="user-bio">Bio: {userData.bio}</div>
+            ) : null}
           </div>
         )}
-
-        {userData && userData.name
-          ? userRepos.map((repo, key) => (
-              <div className="repo-container">
-                <h3>Repositories</h3>
+        {/* <h3>Repositórios:</h3>                   */}
+        <div className="repo-container">
+          {userData && userData.name
+            ? userRepos.map((repo, key) => (
                 <div className="repo-info" key={`repo-${key}`}>
-                  <div>Repo: {repo.name}</div>
-                  <div>
-                    <a href={repo.html_url}>Acesse</a>
+                  <div className="repo-link">
+                    Repositório: <a href={repo.html_url}>{repo.name}</a>
                   </div>
                 </div>
-              </div>
-            ))
-          : null}
+              ))
+            : null}
+        </div>
       </div>
     </div>
   );

@@ -1,5 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Spartan&display=swap');
+
+
 .back-button{
     position: fixed;
     top: 10px;
     left: 10px;
+    color: #21AD4A;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.result-container{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Spartan', sans-serif;
+
+}
+
+.repo-link a{
+    color: #21AD4A;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.user-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70%;
+    margin: 50px;
+}
+
+.repo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+    margin: 50px;
+}
+
+.repo-info{
+    margin: 10px;
+}
+
+.user-img{
+    width: 200px;
 }
