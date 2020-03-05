@@ -25,7 +25,7 @@ const SearchPage = () => {
 
             <div className="search-container">  
 
-                <h2 className="form-title">Busque um usuário no github.</h2>
+                <h2 className="form-title">Busque um usuário do github.</h2>
 
                 <form className="form-search" onSubmit={sendToResult}>
                     <div>@<input onChange={handleChange}/> </div>
